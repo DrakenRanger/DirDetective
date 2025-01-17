@@ -1,0 +1,99 @@
+body{
+	overflow-x: hidden;
+}
+#header{
+	font-family: "Parkinsans", sans-serif;
+}
+#warning{
+	font-weight: bolder;
+	color: darkred;
+	font-size: 1.5rem;
+}
+.logo img{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border-radius: 50px;
+}
+#extension{
+	display: none;
+}
+#table_pannel{
+	position: relative;
+}
+#stop-btn{
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	display: none;
+}
+#restore-btn{
+	display: none;
+}
+#alert{
+	display: none;
+}
+.glow-effect {
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 
+                0 0 20px rgba(255, 0, 0, 0.6), 
+                0 0 30px rgba(255, 0, 0, 0.5);
+}
+.glow-effect:hover {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 1), 
+                0 0 30px rgba(255, 0, 0, 0.9), 
+                0 0 45px rgba(255, 0, 0, 0.8), 
+                0 0 60px rgba(255, 0, 0, 0.6);
+    transform: scale(1.05);
+}
+@media only screen and (max-width: 1507px){ 
+	.logo img{
+		width: 170px;
+		height: 170px;
+	}
+}
+@media only screen and (max-width: 1400px){ 
+	.logo img{
+		width: 140px;
+		height: 140px;
+	}
+}
+@media only screen and (max-width: 1250px){ 
+	.logo img{
+		width: 128px;
+		height: 128px;
+	}
+	#warning{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1080px){ 
+	.logo img{
+		width: 100px;
+		height: 100px;
+	}
+	#warning{
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px){ 
+	.logo img{
+		width: 120px;
+		height: 120px;
+	}
+	#warning{
+		display: none;
+	}
+}
+@media only screen and (max-width: 576px){ 
+	.logo img{
+		width: 80px;
+		height: 80px;
+	}
+	#warning{
+		display: none;
+	}
+}
